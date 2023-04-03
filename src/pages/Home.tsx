@@ -14,7 +14,7 @@ const Home = () => {
 	return (
 		<div>
 			<h2>Home key </h2>
-			{data.list?.map((props: any) => (
+			{data?.list?.map((props: any) => (
 				<p>{props?.definition}</p>
 			))}
 		</div>
